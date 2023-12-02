@@ -22,5 +22,11 @@
     "forceConsistentCasingInFileNames": false,
   },
   "include": ["src"],
+  "baseUrl": ".",
+   "paths": {
+      "@ali/assets/*": ["src/assets/*"],
+      "@ali/components/*": ["src/components/*"],
+      "@ali/colors/*": ["src/theme/colors"]
+    },
   "references": [{ "path": "./tsconfig.node.json" }]
 }
