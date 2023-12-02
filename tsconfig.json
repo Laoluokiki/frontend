@@ -21,12 +21,13 @@
     "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": false,
   },
-  // "include": ["src"],
-  "baseUrl": ".",
-   "paths": {
-      "@ali/assets/*": ["src/assets/*"],
-      "@ali/components/*": ["src/components/*"],
-      "@ali/colors/*": ["src/theme/colors"]
-    },
+  "include": ["src"],
+  "paths": {
+    "@app/*": ["./app/*"],
+    "@assets/*": ["./assets/*"],
+    "@components/*": ["./components/*"],
+    "@styles/*": ["./styles/*"],
+    "@utils/*": ["./utils/*"]
+  },
   "references": [{ "path": "./tsconfig.node.json" }]
 }
