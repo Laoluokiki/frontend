@@ -21,7 +21,7 @@
     "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": false,
   },
-  "include": ["src"],
+  // "include": ["src"],
   "baseUrl": ".",
    "paths": {
       "@ali/assets/*": ["src/assets/*"],
