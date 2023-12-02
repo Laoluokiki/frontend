@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "@mui/material/Button";
-import GoogleCombinedIcon from "./GoogleIcon";
+import GoogleCombinedIcon from "./googleIcon";
 import { Typography } from "@mui/material";
 
 interface CustomButtonProps {
