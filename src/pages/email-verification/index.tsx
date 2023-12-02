@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 import logo from "../../assets/Logo.png";
 import Frame2 from "../../assets/Group2.png";
-import CustomButton from "../../components/CustomButton";
+import CustomButton from "../../components/customButton";
 
 // Import a CSS file for custom styles
 

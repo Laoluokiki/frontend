@@ -13,11 +13,12 @@ import {
 } from "@mui/material";
 import logo from "../../assets/Logo.png";
 import Frame6 from "../../assets/Frame6.png";
-import LinkButton from "../../components/WhiteButton";
-import CustomButton from "../../components/CustomButton";
-import Visibility from "../../components/visibility";
+
 import PassEye from "../../components/passEye";
 import { Link as RouterLink } from "react-router-dom";
+import LinkButton from "../../components/whiteButton";
+import Visibility from "../../components/visibility";
+import CustomButton from "../../components/customButton";
 
 // Import a CSS file for custom styles
 

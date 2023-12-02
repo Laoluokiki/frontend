@@ -14,10 +14,10 @@ import {
 } from "@mui/material";
 import logo from "../../assets/Logo.png";
 import Frame6 from "../../assets/Frame6.png";
-import LinkButton from "../../components/whiteButton";
-import CustomButton from "../../components/CustomButton";
-import Visibility from "../../components/visibility";
 import PassEye from "../../components/passEye";
+import CustomButton from "../../components/customButton";
+import LinkButton from "../../components/whiteButton";
+import Visibility from "../../components/visibility";
 
 // Import a CSS file for custom styles
 

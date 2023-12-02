@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Typography, Paper, Box, Link } from "@mui/material";
-import Navbar from "../../components/Navbar";
-import CustomButton from "../../components/CustomButton";
+import Navbar from "../../components/navbar";
+import CustomButton from "../../components/customButton";
 import { useNavigate } from "react-router-dom";
 
 interface ResetLinks {
