@@ -15,8 +15,8 @@ import logo from "../../assets/Logo.png";
 import Frame6 from "../../assets/Frame6.png";
 import LinkButton from "../../components/WhiteButton";
 import CustomButton from "../../components/CustomButton";
-import Visibility from "../../components/Visibility";
-import PassEye from "../../components/PassEye";
+import Visibility from "../../components/visibility";
+import PassEye from "../../components/passEye";
 import { Link as RouterLink } from "react-router-dom";
 
 // Import a CSS file for custom styles

@@ -8,8 +8,8 @@ import Man from "../../assets/businessman.png";
 import Mans from "../../assets/businessmans.png";
 import { connect } from "react-redux";
 import { RootState } from "../../redux/checkbox/store";
-import { toggleCheckboxOne } from "../../Redux/Checkbox/actions";
-import { toggleCheckboxTwo } from "../../Redux/Checkbox/actions";
+import { toggleCheckboxOne } from "../../redux/checkbox/actions";
+import { toggleCheckboxTwo } from "../../redux/checkbox/actions";
 import { useNavigate } from "react-router-dom";
 
 interface SignUpProps {

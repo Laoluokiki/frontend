@@ -15,8 +15,8 @@ import logo from "../../assets/Logo.png";
 import Frame from "../../assets/Group1.png";
 import LinkButton from "../../components/WhiteButton";
 import CustomButton from "../../components/CustomButton";
-import Visibility from "../../components/Visibility";
-import PassEye from "../../components/PassEye";
+import Visibility from "../../components/visibility";
+import PassEye from "../../components/passEye";
 import { useNavigate } from "react-router-dom";
 import GoogleButton from "../../components/GoogleButton";
 
