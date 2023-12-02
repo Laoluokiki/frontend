@@ -1,0 +1,4 @@
+.red-checkbox input:checked + .Mui-checked {
+    background-color: red;
+  }
+  

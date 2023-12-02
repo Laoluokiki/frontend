@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* CSS for the custom circular checkbox */
+.custom-checkbox {
+  position: relative;
+  -webkit-appearance: none; /* Remove default styles */
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px; /* Adjust width and height for the checkbox */
+  height: 20px;
+  border-radius: 50%; /* Make it circular */
+  border: 2px solid #CBD5E1; /* Set default border */
+  outline: none; /* Remove outline */
+  cursor: pointer; /* Add pointer cursor */
+  overflow: hidden; /* Hide overflow for inner circle */
+}
+
+/* Create a pseudo-element for the inner circle */
+.custom-checkbox::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px; /* Adjust inner circle size */
+  height: 10px; /* Adjust inner circle size */
+  background-color: white; /* Inner circle color */
+  border-radius: 50%; /* Make it circular */
+  transition: background-color 0.3s; /* Add transition effect */
+  
+}
+
+/* Styling for when the checkbox is checked */
+.custom-checkbox:checked::before {
+  width: 10px; /* Adjust inner circle size */
+  height: 10px; /* Adjust inner circle size */
+  background-color: #E93223; /* Inner circle color */
+  border-radius: 50%; /* Make it circular */
+  transition: background-color 0.3s; /* Add transition effect */
+  border: 2px solid #E93223;
+}
+
+
+
